@@ -1,0 +1,100 @@
+/* START BODY CSS */
+body {
+    font-family: 'Comfortaa', cursive;
+}
+/* END BODY CSS */
+
+/* START NAVBAR IMAGE CSS */
+.navbar {
+    font-family: 'Chewy', cursive;
+}
+.navbar-brand {
+    /* Used for image */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-brand > img {
+    /* Used for image */
+    height: 100%;
+    padding: 7px;
+    width: auto;
+    display: inline;
+}
+/* END NAVBAR IMAGE CSS */
+
+/* PAGE TOP CSS */
+.page-top {
+    padding-top:75px;
+}
+
+.page-top > h1 {
+    font-size: 4em;
+}
+
+.page-top > p {
+    font-size: 1.5em;
+}
+/* END PAGE TOP CSS */
+
+/* START CAROUSEL CSS */
+#pictures {
+    /* Needed for navbar link location */
+    padding-top:50px;
+}
+.carousel-inner > .item > img {
+    /* Center images */
+    margin: 0 auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    /* Remove default background image */
+    background-image: none;
+}
+/* END CAROUSEL CSS */
+
+/* PAGE TEXT CSS */
+.page-text {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.page-text > h2 {
+    font-size: 3em;
+}
+
+.page-text > p {
+    font-size: 1.25em;
+}
+/* END PAGE TEXT CSS */
+
+/* TOGGLED CONTENT CSS */
+#info {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.nav-pills a {
+    font-family: 'Chewy', cursive;
+}
+
+.tab-content {
+    padding-top:25px;
+}
+/* END TOGGLED CONTENT CSS */
+
+/* COLLAPSIBLE CONTENT CSS */
+#about {
+    text-align: center;
+    padding-top:50px;
+    margin-bottom:100px;
+}
+#about-text {
+    padding-top:25px;
+}
+/* END COLLAPSIBLE CONTENT CSS */
+
+/* IMAGE GALLERY CSS */
+#image-gallery > .row img {
+    padding:10px;
+}
+/* END IMAGE GALLERY CSS */
